@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.Scanner;
 
-public class CRUDExample {
+public class Main {
 
     static final String url = "jdbc:mysql://localhost:3306/testdb";
     static final String user = "root";
@@ -116,3 +116,4 @@ public class CRUDExample {
             System.out.println("Product Not Found.");
     }
 }
+
